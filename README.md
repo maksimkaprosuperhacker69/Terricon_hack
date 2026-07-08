@@ -2,7 +2,7 @@
 
 A mobile app prototype built for **HackTheBookshelf**, a hackathon marking the 90th anniversary of the Gogol Library in Karaganda.
 
-🥇 **1st place, 300,000 ₸ — "Mobile App Development" track**, out of 60+ teams from across Kazakhstan. Held September 6–8, 2024 at the Terricon Valley IT Hub.
+**1st place, 300,000 ₸ — "Mobile App Development" track**, out of 60+ teams from across Kazakhstan. Held September 6–8, 2024 at the Terricon Valley IT Hub.
 
 The app lets library visitors register for events, get reminders to return borrowed books, and take part in gamified reading activities — built by the Balmuzdaq Studio team in three days.
 
