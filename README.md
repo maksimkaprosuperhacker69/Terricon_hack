@@ -1,50 +1,39 @@
-# Welcome to your Expo app 👋
+# Terricon Hack — Library Companion App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A mobile app prototype built for **HackTheBookshelf**, a hackathon marking the 90th anniversary of the Gogol Library in Karaganda.
 
-## Get started
+🥇 **1st place, 300,000 ₸ — "Mobile App Development" track**, out of 60+ teams from across Kazakhstan. Held September 6–8, 2024 at the Terricon Valley IT Hub.
 
-1. Install dependencies
+The app lets library visitors register for events, get reminders to return borrowed books, and take part in gamified reading activities — built by the Balmuzdaq Studio team in three days.
 
-   ```bash
-   npm install
-   ```
+## Features
 
-2. Start the app
+- **Auth**: sign-in / sign-up flow.
+- **Books**: browse and view individual book details.
+- **Community**: event registration and community activity feed.
+- **Home**: personalized landing screen.
 
-   ```bash
-    npx expo start
-   ```
+## Tech Stack
 
-In the output, you'll find options to open the app in a
+- **React Native + Expo Router**
+- **JavaScript**
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## Run locally
 
 ```bash
-npm run reset-project
+git clone https://github.com/maksimkaprosuperhacker/Terricon_hack.git
+cd Terricon_hack
+npm install
+npx expo start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Key Files
 
-## Learn more
+- `app/(auth)/` — sign-in / sign-up.
+- `app/(tabs)/books.jsx` — book catalog.
+- `app/(tabs)/community.jsx` — events and community.
+- `app/books/[book].jsx` — book detail view.
 
-To learn more about developing your project with Expo, look at the following resources:
+## Author
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- [@maksimkaprosuperhacker](https://github.com/maksimkaprosuperhacker) — built with the Balmuzdaq Studio team
